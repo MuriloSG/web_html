@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - God of War Ragnarok</title>
+</head>
+<body>
+    <header>
+        <h1>God of War Ragnarok</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="characters.html">Personagens</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Galeria</h2>
+        <div>
+            <figure>
+                <img src="images/capaRagnarok.jpg" alt="Capa">
+                <figcaption>Capa de God of War Ragnarok</figcaption>
+            </figure>
+            <figure>
+                <img src="images/freia.jpg" alt="Freya">
+                <figcaption>Freya</figcaption>
+            </figure>
+            <figure>
+                <img src="images/thor.webp" alt="Thor">
+                <figcaption>Thor</figcaption>
+            </figure>
+            <figure>
+                <img src="images/odin.webp" alt="Odin">
+                <figcaption>Odin</figcaption>
+            </figure>
+            <figure>
+                <img src="images/kratus.jpg" alt="Kratos">
+                <figcaption>Kratos</figcaption>
+            </figure>
+            <figure>
+                <img src="images/atreus.jpg" alt="Atreus">
+                <figcaption>Atreus</figcaption>
+            </figure>
+        </div>
+        <form action="#" method="post">
+            <label for="fullname">Nome completo:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="birthdate">Data de nascimento:</label><br>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+            <label for="fav_character">Personagem Favorito:</label><br>
+            <select id="fav_character" name="fav_character">
+                <option value="kratos">Kratos</option>
+                <option value="atreus">Atreus</option>
+                <option value="thor">Thor</option>
+                <option value="freya">Freya</option>
+                <option value="odin">Odin</option>
+            </select><br><br>
+
+            <label for="newsletter">Deseja receber novidades?</label><br>
+            <input type="radio" id="yes" name="newsletter" value="yes" required>
+            <label for="yes">Sim</label><br>
+            <input type="radio" id="no" name="newsletter" value="no" required>
+            <label for="no">Não</label><br><br>
+
+            <label for="feedback">Conte-nos por que gosta de God of War:</label><br>
+            <textarea id="feedback" name="feedback" rows="5" cols="30"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Site sobre God of War Ragnarok.</p>
+    </footer>
+</body>
+</html>
